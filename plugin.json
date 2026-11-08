@@ -1,0 +1,12 @@
+{
+  "name": "v2rayn-proxy",
+  "displayName": "V2RayN Proxy for Codex",
+  "description": "Route Codex through local V2RayN proxy with auto-detection, pre-launch proxy assurance, status diagnostics and configuration.",
+  "version": "1.0.0",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "检查 V2RayN 代理状态，确认 Codex 是否通过代理联网",
+    "为 Codex 创建通过 V2RayN 代理启动的快捷方式并设置开机自启",
+    "把代理端口改成 10809 并验证能否访问 Google"
+  ]
+}

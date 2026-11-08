@@ -1,0 +1,5 @@
+interface:
+  displayName: "V2RayN Proxy"
+  shortDescription: "Check, configure and launch V2RayN proxy for Codex"
+policy:
+  allow-implicit-invocation: true

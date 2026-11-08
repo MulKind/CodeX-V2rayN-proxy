@@ -1,0 +1,35 @@
+{
+  "name": "v2rayn-proxy",
+  "version": "1.0.0",
+  "description": "Route Codex through local V2RayN proxy with auto-detection, pre-launch proxy assurance, status diagnostics and configuration.",
+  "author": "Antigravity",
+  "homepage": "https://github.com/2dust/v2rayN",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "v2rayn",
+    "proxy",
+    "network",
+    "socks5",
+    "http-proxy"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "V2RayN Proxy for Codex",
+    "shortDescription": "V2RayN 代理管理与启动保障",
+    "longDescription": "为 Codex 提供 V2RayN 本地代理自动发现、启动前自动拉起 V2RayN 并检测代理端口就绪、注入代理环境变量及 Electron 参数、状态检测与配置工具。",
+    "developerName": "Antigravity",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive"
+    ],
+    "brandColor": "#10A37F",
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.svg",
+    "defaultPrompt": [
+      "检查 V2RayN 代理状态，确认 Codex 是否通过代理联网",
+      "为 Codex 创建通过 V2RayN 代理启动的快捷方式并设置开机自启",
+      "把代理端口改成 10809 并验证能否访问 Google"
+    ]
+  }
+}

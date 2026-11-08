@@ -1,0 +1,16 @@
+# Logs
+*.log
+*.log.*
+*.old
+
+# Windows / PowerShell
+Desktop.ini
+$RECYCLE.BIN/
+Thumbs.db
+*.lnk
+
+# Runtime & Local State
+shortcut-backup/
+.cache/
+tmp/
+.tmp/
